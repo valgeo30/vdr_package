@@ -1,18 +1,9 @@
 {
-    "name": "vdrpackage/parametres",
-    "description": "Parametres de l'application",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Vdrpackage\\Parametres\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "jarsac",
-            "email": "julien.arsac@lisi-group.com"
-        }
-    ],
-    "minimum-stability": "beta",
-    "require": {}
+  "version": "1.0",
+  "files": [
+    "config/doctrine.yaml"
+  ],
+  "copy-from-recipe": {
+    "config/doctrine.yaml": "config/packages/parametres.yaml"
+  }
 }

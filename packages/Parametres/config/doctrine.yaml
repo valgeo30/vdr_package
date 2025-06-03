@@ -1,0 +1,9 @@
+doctrine:
+  orm:
+    mappings:
+      Parametres:
+        is_bundle: false
+        type: annotation
+        dir: '%kernel.project_dir%/vendor/packages/parametres/src/Entity'
+        prefix: 'Packages\Parametres\Entity'
+        alias: TonPackage
