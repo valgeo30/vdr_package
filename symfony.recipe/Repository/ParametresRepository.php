@@ -1,6 +1,6 @@
 <?php
 
-namespace Vdrpackage\Parametres\Repository;
+namespace Vdrpackage\Repository;
 
 use App\Entity\Parametres;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;

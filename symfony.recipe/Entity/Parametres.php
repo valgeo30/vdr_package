@@ -1,6 +1,6 @@
 <?php
 
-namespace Vdrpackage\Parametres\Entity;
+namespace Vdrpackage\Entity;
 
 use App\Repository\ParametresRepository;
 use Doctrine\ORM\Mapping as ORM;

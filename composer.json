@@ -1,0 +1,21 @@
+{
+  "name": "vdr-package",
+  "type": "library",
+  "description": "Un package Symfony avec une entité et un repository.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "VdrPackage\\": "src/"
+    }
+  },
+  "extra": {
+    "symfony": {
+      "recipe": {
+        "type": "flex",
+        "version": "1.0"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
